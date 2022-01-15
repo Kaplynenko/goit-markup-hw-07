@@ -1,5 +1,6 @@
 @import "./utils/vars";
 @import "./base/base-style";
+@import "./components/pseudo-class";
 @import "./components/logo-header";
 @import "./layout/header";
 @import "./layout/section-main";
@@ -15,7 +16,7 @@
 @import "./utils/hidden";
 @import "./components/button-list.scss";
 @import "./components/product-cards";
-@import "./components/pseudo-class";
+
 @import "./components/backdrop";
 @import "./components/modal";
 @import "./components/forms";

@@ -69,6 +69,20 @@ html {
           box-sizing: inherit;
 }
 
+.port::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  display: inline-block;
+  background-color: var(--accent-color);
+  height: 4px;
+  width: 100%;
+  border-radius: 4px;
+  padding: 0;
+  margin: 0;
+}
+
 /* Логотип */
 .logo {
   display: inline;
@@ -153,7 +167,7 @@ html {
 }
 
 .main-nav__link {
-  color: var(--secondary-text-color);
+  color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -167,6 +181,10 @@ html {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.active {
+  color: black;
 }
 
 /* навигация контакты */
@@ -980,20 +998,6 @@ html {
   line-height: 2;
   letter-spacing: 0.06em;
   border: 1px solid #eeeeee;
-}
-
-.nav-items .link.port::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  display: inline-block;
-  background-color: var(--accent-color);
-  height: 4px;
-  width: 100%;
-  border-radius: 4px;
-  padding: 0;
-  margin: 0;
 }
 
 /* ==============backdrop=========== */
