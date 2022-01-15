@@ -20,14 +20,13 @@
   justify-content: center;
   margin: 0;
   padding: 0;
+  margin-left: 93px;
 }
 .main-nav__items {
   margin: 0;
   align-items: center;
 }
-.main-nav__items:first-child {
-  padding-left: 93px;
-}
+
 .main-nav__items:not(:last-child) {
   margin-right: 50px;
 }
